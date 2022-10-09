@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/scroll_view"
+        android:id="@+id/txtScrollView"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtScrollView"
+        android:layout_marginTop="50dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/click1"
+            android:textSize="20sp"
+            android:backgroundTint="@color/teal_200"
+            android:id="@+id/btnClick1"
+            />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick2"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick3"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick4"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick5"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick6"
+                />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick7"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick8"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick9"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick10"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick11"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick12"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick13"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick14"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:id="@+id/btnClick15"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

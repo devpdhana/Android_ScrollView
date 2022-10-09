@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Scroll_View</string>
+    <string name="click1">Click1</string>
+    <string name="click2">Click2</string>
+    <string name="scroll_view">Scroll View</string>
+</resources>
